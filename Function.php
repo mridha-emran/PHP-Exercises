@@ -132,9 +132,8 @@ $player1=launchDice(5);
 $player2=launchDice(5);
 
 if($player1>$player2){
-    echo("{$player1}is than{$player2} player1 win");
 }elseif($player2>$player1){
-    echo("{$player2}is than{$player1} player2 win");
+    echo("{$player2}is greater than{$player1} player2 win");
 }else{
     echo("draw");
 }

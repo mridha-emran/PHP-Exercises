@@ -86,7 +86,6 @@ echo"</pre>";
 $sentence = "Hello world !";
 $myArray = str_split($sentence);
 
-// print_r($myArray)."</br>";
 $result = array();
 
 for ($i = 0; $i < count($myArray); $i++) {
