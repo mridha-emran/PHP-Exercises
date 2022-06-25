@@ -3,6 +3,7 @@
 
 // Calculate the sum of the squares of the numbers from 5 to 10
 $sum = 0;
+
 for ($i = 5; $i <= 10; $i++) {
     $sum += $i * $i;   
 }
@@ -15,9 +16,10 @@ echo($sum)."</br>";
 Expected result: 128*/
 
 $count=0;
-for($i= 100; $i<=1000;$i++){
 
-    if($i%7 === 0){
+for($i= 100; $i <=  1000;$i++){
+
+    if( $i%7 === 0){
         $count++;
     }
 
@@ -30,12 +32,13 @@ echo($count)."</br>";
 // Roll a die 20 times and display the sum of all results greater than or equal to 5.
 $total=0;
 
-for($x=0;$x<=20;$x++){
+for($x=0; $x<=20; $x++){
+
     $dice=rand(1,6);
 
     if($dice >= 5){
         echo($dice)."</br>";
-        $total+=$dice;
+        $total+= $dice;
     }
 }
 echo $total;
