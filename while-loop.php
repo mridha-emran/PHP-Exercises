@@ -30,7 +30,7 @@ echo ($count);
 ### 03 - Race
 
     /*Create two variables `ussainBolt` and `tysonGay` worth 0
-    
+
     As long as one of the two variables has not exceeded 100
 
     Draw two random numbers between 1 and 10 and add the first number to the first variable and the second to the second
@@ -59,3 +59,5 @@ echo ($count);
     } else {
         echo("Draw !");
     }
+
+    

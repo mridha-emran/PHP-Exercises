@@ -102,7 +102,7 @@ for ($i = 0; $i < count($myArray); $i++) {
 /*- Create a Array with the name of each of your classmates
 - Randomly display the name of the person drawn*/
 
-$students = ["Arman", "ManiK", "Raja", "Fasulu", "Jony", "Ikram", "Karimo"]; 
+$students = array("Arman", "ManiK", "Raja", "Fasulu", "Jony", "Ikram", "Karimo"); 
 
     $min = 0;
     $max = count($students)- 1;
@@ -137,3 +137,4 @@ $numMax = $array[0];
     }
 
 echo($numMax);
+
